@@ -4,34 +4,88 @@ Learn/practise Python hands-on by following these exercises in the interpreter
 Get the Python and the interpreter here: https://www.python.org/downloads/
 
 quit()
+
 print('my string')
+
 2 + 2
+
+2.0 + 2
+
 2 - 0
+
 3 * 2
+
 3 / 2
+
 3 ** 2
+
 9 // 2
+
 9 % 2
+
 print('Henry's shoelace')
+
 print('Henry\'s shoelace')
+
 print('Henry\'s\nshoelace')
+
 input()
-'Humpty' + ' ' + 'Dumpty'
+
+'Humpty ' + 'Dumpty'
+
 'Ice ' * 2 + 'Baby'
+
 5 + ' Fingers' #gives error
+
 str(5) + ' Fingers'
+
 '5' + 5 #gives error
+
 int('5') + 5
 
+float('2') + 2
 
-# to add on
-float()
-=
-del
-+= / -= / *=
-==
-!=
->, <, >=, <=
+x = 5
+
+x
+
+del x
+
+x
+
+x = 5
+
+x += 1
+
+x
+
+x -= 1
+
+x
+
+x *= 3
+
+x
+
+x == 15
+
+x == 10
+
+x != 10
+
+x != 15
+
+x > 10
+
+x >= 15
+
+x < 10
+
+x <= 15
+
+
+
+#### to add on
 if
 else
 elif
