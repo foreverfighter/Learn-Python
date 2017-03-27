@@ -82,67 +82,34 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * my_list[0]
 * my_list[2]
 * 4 in my_list
-
-len(my_list)
-
-my_list.append(10)
-
-my_list
-
-my_list.insert(3,8)
-
-my_list
-
-my_list.index(8)
-
-my_list.index(10)
-
-my_list.remove(8)
-
-range(7)
-
-list(range(7))
-
-list(range(2,9))
-
-list(range(2,19,3))
-
-    for my_item in range(5):
-
-        print(my_item)
-.
-
-    def my_function():
-
-        print('This is my function')
-.
-
-    def my_function():
-
-        return 5
-.
-
-    def my_function():
-
-        return 5
-
-        print('This is my function') # this doesn't get printed because it's after the return statement
-.
-
-3 + my_function()
-
-    print("""This
-
-    is
-
-    my
-
-    multiline
-
-    string""")
-
-import random
-
+* len(my_list)
+* my_list.append(10)
+* my_list
+* my_list.insert(3,8)
+* my_list
+* my_list.index(8)
+* my_list.index(10)
+* my_list.remove(8)
+* range(7)
+* list(range(7))
+* list(range(2,9))
+* list(range(2,19,3))
+* for my_item in range(5):
+  * print(my_item)
+* def my_function():
+  * print('This is my function')
+* def my_function():
+  * return 5
+* def my_function():
+  * return 5
+  * print('This is my function') # not printed because it's after the return statement
+* 3 + my_function()
+* print("""This
+  * is
+  * my
+  * multiline
+  * string""")
+* import random
 
 #### here are some interesting leads that these exercises do not cover
 
@@ -151,118 +118,57 @@ import random
 
 #### to add on
 
-import {}
-
-random.randint(x,y)
-
-from {} import {} as {}
-
-from {} import *
-
-try: except:
-
-assert {statement}, {comment}
-
-file = open()
-
-file.close
-
-cont = file.read()
-
-file.readlines()
-
-file.write()
-
-with open('test.txt', 'a') as myfile:
-
-{key:value,key:value}
-
-dict[key] = value
-
-key in dict
-
-.get(key,[nokeycomment])
-
-(x,y,z)
-
-x,y,z
-
-mylist[1:5:2]
-
-[…for x in range(5) if ...]
-
-ord()
-
-chr()
-
-.isalpha()
-
-.translate()
-
-split()
-
-lambda x: x**2
-
-map(function, iterable)
-
-filter(function, iterable)
-
-yield
-
-set()
-
-.add
-
-.remove
-
-.pop
-
-'.'
-
-'..'
-
-if __name__ == '__main__':
-
-#!/usr/bin/python
-
-'''…'''
-
-%c
-
-%s
-
-%d
-
-%.
-
-__attribute
-
-def func(self):
-
-def __init__(self):
-
-{}
-
-(?P<name>...)
-
-(?:...)
-
-|
-
-class subc(class):
-
-def __add__(self,other):
-
-.format
-
-@classmethod
-
-@property
-
-@myproperty.setter
-
-@myproperty.deleter
-
-*args
-
-**kwargs
+* import {}
+* random.randint(x,y)
+* from {} import {} as {}
+* from {} import *
+* try: except:
+* assert {statement}, {comment}
+* file = open()
+* file.close
+* cont = file.read()
+* file.readlines()
+* file.write()
+* with open('test.txt', 'a') as myfile:
+* {key:value,key:value}
+* dict[key] = value
+* key in dict
+* .get(key,[nokeycomment])
+* (x,y,z)
+* x,y,z
+* mylist[1:5:2]
+* […for x in range(5) if ...]
+* ord()
+* chr()
+* .isalpha()
+* .translate()
+* split()
+* lambda x: x**2
+* map(function, iterable)
+* filter(function, iterable)
+* yield
+* set()
+* .add
+* .remove
+* .pop
+* '.'
+* '..'
+* if __name__ == '__main__':
+* #!/usr/bin/python
+* '''…'''
+* __attribute
+* def func(self):
+* def __init__(self):
+* {}
+* (?P<name>...)
+* (?:...)
+* |
+* class subc(class):
+* def __add__(self,other):
+* .format
+* @classmethod
+* @property
+* @myproperty.setter
+* @myproperty.deleter
+* *args
+* **kwargs
