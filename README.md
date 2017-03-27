@@ -17,10 +17,10 @@ _For indented lines, use a tab for each indent._
 * print('Henry\\'s shoelace')
 * print('Henry\\'s\nshoelace')
 * print("""This
-  * is
-  * my
-  * multiline
-  * string""")
+* is
+* my
+* multiline
+* string""")
 * 'Humpty ' + 'Dumpty'
 * 'Ice ' * 2 + 'Baby'
 * 5 + ' Fingers' #gives error
