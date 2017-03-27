@@ -1,7 +1,10 @@
 # Learn-Python
-**Learn/practise Python hands-on by following these exercises in the interpreter**
+_Learn/practise Python hands-on by following these exercises in the interpreter._
 
-Get the Python and the interpreter [here](https://www.python.org/downloads/)
+Get the Python and the interpreter [**here**](https://www.python.org/downloads/).
+
+###Instructions for use
+_Open the interpreter, type a line of code, press enter and observe the output._
 
 quit()
 
