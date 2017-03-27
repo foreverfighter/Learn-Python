@@ -1,7 +1,7 @@
 # Learn-Python
-Learn/practise Python hands-on by following these exercises in the interpreter
+**Learn/practise Python hands-on by following these exercises in the interpreter**
 
-Get the Python and the interpreter here: https://www.python.org/downloads/
+Get the Python and the interpreter [here](https://www.python.org/downloads/)
 
 quit()
 
@@ -84,10 +84,15 @@ x < 10
 x <= 15
 
 if (x == 15):
+
     print('x is 15')
+
 elif (x > 15):
+
     print('x is greater than 15')
+
 else:
+
     print('x is less than 15')
 
 x > 10 and x > 13
@@ -101,13 +106,19 @@ not x > 10
 i = 0
 
 while i < 7:
+
     print(i)
+
     i += 1
 
 while i < 7:
+
     print(i)
+
     i += 1
+
     if (i == 5):
+
         break
 
 
