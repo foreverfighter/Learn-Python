@@ -83,14 +83,36 @@ x < 10
 
 x <= 15
 
+if (x == 15):
+    print('x is 15')
+elif (x > 15):
+    print('x is greater than 15')
+else:
+    print('x is less than 15')
+
+x > 10 and x > 13
+
+x > 10 and x > 16
+
+x > 10 or x > 16
+
+not x > 10
+
+i = 0
+
+while i < 7:
+    print(i)
+    i += 1
+
+while i < 7:
+    print(i)
+    i += 1
+    if (i == 5):
+        break
+
 
 
 #### to add on
-if
-else
-elif
-and, or, not
-while...:
 break
 continue
 [x,y,z]
