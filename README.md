@@ -6,8 +6,28 @@ Get Python and the interpreter [**here**](https://www.python.org/downloads/).
 ### Instructions for use
 _Open the interpreter, type a line of code, press enter and observe the output._
 
+_For indented lines, use a tab for each indent._
+
+#### 1.0 Basics
 * quit()
 * print('my string')
+
+#### 1.1 Strings
+* print('Henry's shoelace')
+* print('Henry\\'s shoelace')
+* print('Henry\\'s\nshoelace')
+* print("""This
+  * is
+  * my
+  * multiline
+  * string""")
+* 'Humpty ' + 'Dumpty'
+* 'Ice ' * 2 + 'Baby'
+* 5 + ' Fingers' #gives error
+* str(5) + ' Fingers'
+* '5' + 5 #gives error
+
+#### 1.2 Math/Types
 * 2 + 2
 * 2 + 2 #this is a comment for humans to read
 * 2.0 + 2
@@ -17,18 +37,13 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * 3 ** 2
 * 9 // 2
 * 9 % 2
-* print('Henry's shoelace')
-* print('Henry\\'s shoelace')
-* print('Henry\\'s\nshoelace')
-* input()
-* 'Humpty ' + 'Dumpty'
-* 'Ice ' * 2 + 'Baby'
-* 5 + ' Fingers' #gives error
-* str(5) + ' Fingers'
-* '5' + 5 #gives error
 * int('5') + 5
 * float('2') + 2
+
+#### 1.3 Variables
 * x = 5
+* x
+* x = x + 1
 * x
 * del x
 * x
@@ -39,6 +54,10 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * x
 * x *= 3
 * x
+* x = input()
+* x
+
+#### 1.4 Conditionals
 * x == 15
 * x == 10
 * x != 10
@@ -57,6 +76,10 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * x > 10 and x > 16
 * x > 10 or x > 16
 * not x > 10
+
+#### 1.5 Loops
+* for i in range(5):
+  * print(i)
 * i = 0
 * while i < 7:
   * print(i)
@@ -76,6 +99,8 @@ _Open the interpreter, type a line of code, press enter and observe the output._
   * if (i == 5):
     * continue
   * print(i)
+
+#### 1.6 Lists/Ranges
 * my_list = []
 * my_list
 * my_list = [1,2,3,4,5]
@@ -94,8 +119,8 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * list(range(7))
 * list(range(2,9))
 * list(range(2,19,3))
-* for i in range(5):
-  * print(i)
+
+#### 2.0 Functions
 * def my_function():
   * print('This is my function')
 * def my_function():
@@ -104,11 +129,8 @@ _Open the interpreter, type a line of code, press enter and observe the output._
   * return 5
   * print('This is my function') # not printed because it's after the return statement
 * 3 + my_function()
-* print("""This
-  * is
-  * my
-  * multiline
-  * string""")
+
+#### 2.1 Modules
 * import random
 * random.randint(1,100)
 * from random import randint
@@ -116,6 +138,8 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * from random import * # imports all objects in the module and removes the need for 'random.'
 * x = list(range(10))
 * shuffle(x) # this is a function from the module random
+
+#### 2.2 Exceptions
 * try:
   * x = int(input('Enter a number: '))
 * except:
@@ -124,6 +148,8 @@ _Open the interpreter, type a line of code, press enter and observe the output._
   * print('Entered ' + x)
 * x = 5
 * assert x < 4, 'x is not less than 4'
+
+#### 2.3 File Manipulation
 * with open('my_file.txt','w') as f:
   * f.write('my text to write to file') # check the directory you were in when you started python for the my_file.txt you just created 
 * with open('my_file.txt','w') as f:
@@ -136,6 +162,8 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * with open('my_file.txt') as f:
   * cont = f.readlines()
 * print(cont)
+
+#### 2.4 Dictionaries/Tuples/Slices
 * x = {'Name': 'Stitch', 'Species': 'Monster'}
 * x['Name']
 * 'Species' in x
@@ -146,6 +174,8 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * x[:5]
 * x[2:]
 * x[::-1]
+
+#### 2.5 chr()/ord()/.split()/.format()
 * for i in range(65,90):
   * print(chr(i))
 * for i in 'abcdefgh':
@@ -155,12 +185,12 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * x
 * '{} cuts deeper than {}'.format('fear','swords')
 
-#### here are some interesting leads that these exercises do not cover
+#### _here are some interesting leads that these exercises do not cover_
 
 * standard libraries other than random
 * regular expressions
 
-#### to add on
+##### to be added on
 
 * .isalpha()
 * .translate()
