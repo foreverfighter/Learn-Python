@@ -18,8 +18,8 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * 9 // 2
 * 9 % 2
 * print('Henry's shoelace')
-* print('Henry\'s shoelace')
-* print('Henry\'s\nshoelace')
+* print('Henry\\'s shoelace')
+* print('Henry\\'s\nshoelace')
 * input()
 * 'Humpty ' + 'Dumpty'
 * 'Ice ' * 2 + 'Baby'
@@ -94,8 +94,8 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * list(range(7))
 * list(range(2,9))
 * list(range(2,19,3))
-* for my_item in range(5):
-  * print(my_item)
+* for i in range(5):
+  * print(i)
 * def my_function():
   * print('This is my function')
 * def my_function():
@@ -110,6 +110,50 @@ _Open the interpreter, type a line of code, press enter and observe the output._
   * multiline
   * string""")
 * import random
+* random.randint(1,100)
+* from random import randint
+* randint(1,100)
+* from random import * # imports all objects in the module and removes the need for 'random.'
+* x = list(range(10))
+* shuffle(x) # this is a function from the module random
+* try:
+  * x = int(input('Enter a number: '))
+* except:
+  * print('Invalid input')
+* else:
+  * print('Entered ' + x)
+* x = 5
+* assert x < 4, 'x is not less than 4'
+* with open('my_file.txt','w') as f:
+  * f.write('my text to write to file') # check the directory you were in when you started python for the my_file.txt you just created 
+* with open('my_file.txt','w') as f:
+  * f.write('this is more text to write') # the new text overwrote the old text
+* with open('my_file.txt','a') as f: # the 'a' will let us add on to the old text instead of overwriting
+  * f.write('\nI am now adding new text')
+* with open('my_file.txt') as f:
+  * cont = f.read()
+* print(cont)
+* with open('my_file.txt') as f:
+  * cont = f.readlines()
+* print(cont)
+* x = {'Name': 'Stitch', 'Species': 'Monster'}
+* x['Name']
+* 'Species' in x
+* 'Monster' in x # false, because 'in' only checks keys and not values
+* x = 1,2,3,4,5,6,7,8
+* x
+* x[3:7]
+* x[:5]
+* x[2:]
+* x[::-1]
+* for i in range(65,90):
+  * print(chr(i))
+* for i in 'abcdefgh':
+  * print(ord(i))
+* x = 'this is sparta'
+* x.split(' ')
+* x
+* '{} cuts deeper than {}'.format('fear','swords')
 
 #### here are some interesting leads that these exercises do not cover
 
@@ -118,31 +162,8 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 
 #### to add on
 
-* import {}
-* random.randint(x,y)
-* from {} import {} as {}
-* from {} import *
-* try: except:
-* assert {statement}, {comment}
-* file = open()
-* file.close
-* cont = file.read()
-* file.readlines()
-* file.write()
-* with open('test.txt', 'a') as myfile:
-* {key:value,key:value}
-* dict[key] = value
-* key in dict
-* .get(key,[nokeycomment])
-* (x,y,z)
-* x,y,z
-* mylist[1:5:2]
-* […for x in range(5) if ...]
-* ord()
-* chr()
 * .isalpha()
 * .translate()
-* split()
 * lambda x: x**2
 * map(function, iterable)
 * filter(function, iterable)
@@ -159,7 +180,6 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * __attribute
 * def func(self):
 * def __init__(self):
-* {}
 * (?P<name>...)
 * (?:...)
 * |
