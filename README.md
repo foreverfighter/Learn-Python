@@ -114,6 +114,18 @@ i = 0
 
         i += 1
 
+
+    while i < 7:
+
+        print(i)
+
+        i += 1
+
+        if (i == 5):
+
+            break
+
+
     while i < 7:
 
         print(i)
@@ -127,97 +139,189 @@ i = 0
 
 
 #### to add on
-break
+
 continue
+
 [x,y,z]
+
 var[0]
+
 []
+
 in
+
 .append
+
 len()
+
 .insert
+
 .index
+
 .remove
+
 range(x)
+
 range(x,y)
+
 range(x,y,z)
+
 list()
+
 for…in…:
+
 def func:
+
 return
+
 #
+
 """
+
 import {}
+
 random.randint(x,y)
+
 from {} import {} as {}
+
 from {} import *
+
 string
+
 re
+
 datetime
+
 math
+
 random
+
 os
+
 multiprocessing
+
 subprocess
+
 socket
+
 email
+
 json
+
 doctest
+
 unittest
+
 pdb
+
 argparse
+
 sys
+
 try: except:
+
 assert {statement}, {comment}
+
 file = open()
+
 file.close
+
 cont = file.read()
+
 file.readlines()
+
 file.write()
+
 with open('test.txt', 'a') as myfile:
+
 {key:value,key:value}
+
 dict[key] = value
+
 key in dict
+
 .get(key,[nokeycomment])
+
 (x,y,z)
+
 x,y,z
+
 mylist[1:5:2]
+
 […for x in range(5) if ...]
+
 ord()
+
 chr()
+
 .isalpha()
+
 .translate()
+
 split()
+
 lambda x: x**2
+
 map(function, iterable)
+
 filter(function, iterable)
+
 yield
+
 set()
+
 .add
+
 .remove
+
 .pop
+
 '.'
+
 '..'
+
 if __name__ == '__main__':
+
 #!/usr/bin/python
+
 '''…'''
+
 %c
+
 %s
+
 %d
+
 %.
+
 __attribute
+
 def func(self):
+
 def __init__(self):
+
 {}
+
 (?P<name>...)
+
 (?:...)
+
 |
+
 class subc(class):
+
 def __add__(self,other):
+
 .format
+
 @classmethod
+
 @property
+
 @myproperty.setter
+
 @myproperty.deleter
+
 *args
+
 **kwargs
