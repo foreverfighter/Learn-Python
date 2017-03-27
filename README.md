@@ -47,62 +47,35 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 * x >= 15
 * x < 10
 * x <= 15
-    if (x == 15):
-
-        print('x is 15')
-
-    elif (x > 15):
-
-        print('x is greater than 15')
-
-    else:
-
-        print('x is less than 15')
-
+* if (x == 15):
+ * print('x is 15')
+ * elif (x > 15):
+  * print('x is greater than 15')
+ * else:
+  * print('x is less than 15')
 * x > 10 and x > 13
 * x > 10 and x > 16
 * x > 10 or x > 16
 * not x > 10
 * i = 0
-    while i < 7:
-
-        print(i)
-
-        i += 1
-.
-
-    while i < 7:
-
-        print(i)
-
-        i += 1
-
-        if (i == 5):
-
-            break
-.
-
-    while i < 7:
-
-        print(i)
-
-        i += 1
-
-        if (i == 5):
-
-            break
-.
-
-    while i < 7:
-
-        i += 1
-
-        if (i == 5):
-
-            continue
-
-        print(i)
-
+* while i < 7:
+ * print(i)
+ * i += 1
+* while i < 7:
+ * print(i)
+ * i += 1
+ * if (i == 5):
+  * break
+* while i < 7:
+ * print(i)
+ * i += 1
+ * if (i == 5):
+  * break
+* while i < 7:
+ * i += 1
+ * if (i == 5):
+  * continue
+ * print(i)
 * my_list = []
 * my_list
 * my_list = [1,2,3,4,5]
