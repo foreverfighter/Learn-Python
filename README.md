@@ -123,8 +123,10 @@ _For indented lines, use a tab for each indent._
 #### 2.0 Functions
 * def my_function():
   * print('This is my function')
+* my_function()
 * def my_function():
   * return 5
+* 3 + my_function()
 * def my_function():
   * return 5
   * print('This is my function') # not printed because it's after the return statement
