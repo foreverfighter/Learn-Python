@@ -62,7 +62,27 @@ _For indented lines, use a tab for each indent._
 * z = x + y
 * z = x + ' ' + y
 
-#### 1.3 If Statements, Booleans
+#### 1.3 Lists/Ranges
+* my_list = []
+* my_list
+* my_list = [1,2,3,4,5]
+* my_list[0]
+* my_list[2]
+* 4 in my_list
+* len(my_list)
+* my_list.append(10)
+* my_list
+* my_list.insert(3,8)
+* my_list
+* my_list.index(8)
+* my_list.index(10)
+* my_list.remove(8)
+* range(7)
+* list(range(7))
+* list(range(2,9))
+* list(range(2,19,3))
+
+#### 1.4 Booleans, If Statements
 * x == 15
 * x == 10
 * x != 10
@@ -82,7 +102,7 @@ _For indented lines, use a tab for each indent._
 * x > 10 or x > 16
 * not x > 10
 
-#### 1.4 Loops
+#### 1.5 Loops
 * for i in range(5):
   * print(i)
 * i = 0
@@ -104,26 +124,9 @@ _For indented lines, use a tab for each indent._
   * if (i == 5):
     * continue
   * print(i)
-
-#### 1.5 Lists/Ranges
-* my_list = []
-* my_list
-* my_list = [1,2,3,4,5]
-* my_list[0]
-* my_list[2]
-* 4 in my_list
-* len(my_list)
-* my_list.append(10)
-* my_list
-* my_list.insert(3,8)
-* my_list
-* my_list.index(8)
-* my_list.index(10)
-* my_list.remove(8)
-* range(7)
-* list(range(7))
-* list(range(2,9))
-* list(range(2,19,3))
+* pokemons = ['Squirtle', 'Charmander', 'Bulbasaur']
+* for pokemon in pokemons:
+*   print(pokemon)
 
 #### 2.0 Functions
 * def my_function():
@@ -192,6 +195,57 @@ _For indented lines, use a tab for each indent._
 * x
 * '{} cuts deeper than {}'.format('fear','swords')
 
+#### 2.6 Classes
+* class Car:
+*   def __init__(self):
+*     self.wheels = 4
+*     self.speed = 60
+*     self.condition = 2
+*     self.model = 'Unspecified'
+*   def drive(self):
+*     if self.condition:
+*       print('Vroom!')
+*       self.condition -= 1
+*     else:
+*       print('The car needs to be repaired!')
+*   def repair(self):
+*     print('Repaired the car!')
+*     self.conditon = 2
+* my_car = Car()
+* my_car.speed
+* my_car.drive()
+* my_car.drive()
+* my_car.drive()
+* my_car.repair()
+* class Ferrari(Car):
+*   def __init__(self):
+*     super().__init__()
+*     self.model = 'Ferrari'
+*   def drive(self):
+*     print('Vroooooooommm!!!')
+*     self.condition -= 1
+* my_fer = Ferrari()
+* my_fer.wheels
+* my_fer.drive()
+* my_fer.drive()
+* my_fer.drive()
+* my_fer.repair()
+
+#### 3.0 List Comprehensions
+
+
+
+#### 3.1 Script Conventions
+
+/#!/usr/bin/env python3
+
+class definitions
+
+def main():
+
+if __name__ == '__main__':
+  main()
+
 #### _here are some interesting leads that these exercises do not cover_
 
 * standard libraries other than random
@@ -209,20 +263,11 @@ _For indented lines, use a tab for each indent._
 * .add
 * .remove
 * .pop
-* '.'
-* '..'
-* if __name__ == '__main__':
-* #!/usr/bin/python
-* '''…'''
 * __attribute
-* def func(self):
-* def __init__(self):
 * (?P<name>...)
 * (?:...)
 * |
-* class subc(class):
 * def __add__(self,other):
-* .format
 * @classmethod
 * @property
 * @myproperty.setter
