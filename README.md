@@ -9,9 +9,11 @@ _Open the interpreter, type a line of code, press enter and observe the output._
 _For indented lines, use a tab for each indent._
 
 #### 1.0 Basics
-* quit()
-* print('my string')
-* print('my string') #this is a comment for humans to read
+```python
+quit()
+print('my string')
+print('my string') #this is a comment for humans to read
+```
 
 #### 1.1 Strings, Numbers and Types
 ```python
@@ -265,9 +267,19 @@ my_fer.repair()
 ```python
 /#!/usr/bin/env python3
 
-class definitions
+class MyClass:
+  '''Short explanation of the class and its purpose'''
+
+  def __init__(self):
+  '''Short explanation of the constructor and its usage'''
+    # constructor code here
+
+  def my_method(self):
+  '''Short explanation of the method and its usage'''
+
 
 def main():
+  # your script's code here
 
 if __name__ == '__main__':
   main()
