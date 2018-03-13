@@ -218,8 +218,8 @@ _For indented lines, use a tab for each indent._
 * my_car.drive()
 * my_car.repair()
 * class Ferrari(Car):
-  * def /_/_init/_/_(self):
-    * super()./_/_init/_/_()
+  * def _/_init_/_(self):
+    * super()._/_init_/_()
     * self.model = 'Ferrari'
   * def drive(self):
     * print('Vroooooooommm!!!')
