@@ -197,20 +197,20 @@ _For indented lines, use a tab for each indent._
 
 #### 2.6 Classes
 * class Car:
-*   def __init__(self):
-*     self.wheels = 4
-*     self.speed = 60
-*     self.condition = 2
-*     self.model = 'Unspecified'
-*   def drive(self):
-*     if self.condition:
-*       print('Vroom!')
-*       self.condition -= 1
-*     else:
-*       print('The car needs to be repaired!')
-*   def repair(self):
-*     print('Repaired the car!')
-*     self.conditon = 2
+  * def __init__(self):
+    * self.wheels = 4
+    * self.speed = 60
+    * self.condition = 2
+    * self.model = 'Unspecified'
+  * def drive(self):
+    * if self.condition:
+      * print('Vroom!')
+      * self.condition -= 1
+    * else:
+      * print('The car needs to be repaired!')
+  * def repair(self):
+    * print('Repaired the car!')
+    * self.conditon = 2
 * my_car = Car()
 * my_car.speed
 * my_car.drive()
@@ -218,12 +218,12 @@ _For indented lines, use a tab for each indent._
 * my_car.drive()
 * my_car.repair()
 * class Ferrari(Car):
-*   def __init__(self):
-*     super().__init__()
-*     self.model = 'Ferrari'
-*   def drive(self):
-*     print('Vroooooooommm!!!')
-*     self.condition -= 1
+  * def __init__(self):
+    * super().__init__()
+    * self.model = 'Ferrari'
+  * def drive(self):
+    * print('Vroooooooommm!!!')
+    * self.condition -= 1
 * my_fer = Ferrari()
 * my_fer.wheels
 * my_fer.drive()
