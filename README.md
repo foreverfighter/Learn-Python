@@ -57,8 +57,11 @@ _For indented lines, use a tab for each indent._
 * x
 * x = input()
 * x
+* x = 'Monty'
+* y = 'Python'
+* z = x + ' ' + y
 
-#### 1.3 Conditionals
+#### 1.3 Booleans, Conditionals
 * x == 15
 * x == 10
 * x != 10
