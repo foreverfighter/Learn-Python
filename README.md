@@ -14,14 +14,15 @@ _For indented lines, use a tab for each indent._
 * print('my string') #this is a comment for humans to read
 
 #### 1.1 Strings, Numbers and Types
-* print('Henry's shoelace')
-* print('Henry\\'s shoelace')
-* print('Henry\\'s\nshoelace')
-* print("""This
-* is
-* my
-* multiline
-* string""")
+```python
+print('Henry's shoelace')
+print('Henry\\'s shoelace')
+print('Henry\\'s\nshoelace')
+print("""This
+is
+my
+multiline
+string""")
 * 'Humpty ' + 'Dumpty'
 * 'Ice ' * 2 + 'Baby'
 * 5 + ' Fingers' #gives error
@@ -38,6 +39,7 @@ _For indented lines, use a tab for each indent._
 * 9 % 2
 * int('5') + 5
 * float('2') + 2
+```
 
 #### 1.2 Variables
 * x = 5
