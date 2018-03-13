@@ -197,7 +197,7 @@ _For indented lines, use a tab for each indent._
 
 #### 2.6 Classes
 * class Car:
-  * def __init__(self):
+  * def /_/_init/_/_(self):
     * self.wheels = 4
     * self.speed = 60
     * self.condition = 2
@@ -218,8 +218,8 @@ _For indented lines, use a tab for each indent._
 * my_car.drive()
 * my_car.repair()
 * class Ferrari(Car):
-  * def __init__(self):
-    * super().__init__()
+  * def /_/_init/_/_(self):
+    * super()./_/_init/_/_()
     * self.model = 'Ferrari'
   * def drive(self):
     * print('Vroooooooommm!!!')
