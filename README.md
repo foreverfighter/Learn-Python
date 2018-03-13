@@ -59,9 +59,10 @@ _For indented lines, use a tab for each indent._
 * x
 * x = 'Monty'
 * y = 'Python'
+* z = x + y
 * z = x + ' ' + y
 
-#### 1.3 Booleans, Conditionals
+#### 1.3 If Statements, Booleans
 * x == 15
 * x == 10
 * x != 10
