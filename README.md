@@ -11,8 +11,9 @@ _For indented lines, use a tab for each indent._
 #### 1.0 Basics
 * quit()
 * print('my string')
+* print('my string') #this is a comment for humans to read
 
-#### 1.1 Strings
+#### 1.1 Strings, Numbers and Types
 * print('Henry's shoelace')
 * print('Henry\\'s shoelace')
 * print('Henry\\'s\nshoelace')
@@ -26,10 +27,8 @@ _For indented lines, use a tab for each indent._
 * 5 + ' Fingers' #gives error
 * str(5) + ' Fingers'
 * '5' + 5 #gives error
-
-#### 1.2 Math/Types
 * 2 + 2
-* 2 + 2 #this is a comment for humans to read
+* 2 + 2 
 * 2.0 + 2
 * 2 - 0
 * 3 * 2
@@ -40,7 +39,7 @@ _For indented lines, use a tab for each indent._
 * int('5') + 5
 * float('2') + 2
 
-#### 1.3 Variables
+#### 1.2 Variables
 * x = 5
 * x
 * x = x + 1
@@ -48,6 +47,8 @@ _For indented lines, use a tab for each indent._
 * del x
 * x
 * x = 5
+* x++
+* x
 * x += 1
 * x
 * x -= 1
@@ -57,7 +58,7 @@ _For indented lines, use a tab for each indent._
 * x = input()
 * x
 
-#### 1.4 Conditionals
+#### 1.3 Conditionals
 * x == 15
 * x == 10
 * x != 10
@@ -77,7 +78,7 @@ _For indented lines, use a tab for each indent._
 * x > 10 or x > 16
 * not x > 10
 
-#### 1.5 Loops
+#### 1.4 Loops
 * for i in range(5):
   * print(i)
 * i = 0
@@ -100,7 +101,7 @@ _For indented lines, use a tab for each indent._
     * continue
   * print(i)
 
-#### 1.6 Lists/Ranges
+#### 1.5 Lists/Ranges
 * my_list = []
 * my_list
 * my_list = [1,2,3,4,5]
