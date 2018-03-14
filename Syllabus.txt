@@ -1,0 +1,36 @@
+*1.0 Basic Data Types*
+incl. understanding terms Console, Data Type, Strings, Integer, Escape, Operations, Type Conversion, Float
+*1.1 Variables*
+incl. understanding terms Variable, Declaration, Assignment, Increment, In-Place Operations, Namespace
+*1.2 Lists, Ranges*
+incl. understanding terms List, Index, Element, Append, Remove, Range, List Slice
+*1.3 Booleans, If Statements*
+incl. understanding terms Boolean, Truthiness, If Statement, Expression
+*1.4 Loops*
+incl. understanding terms For Loop, Iterable, While Loop
+*2.0 Functions*
+incl. understanding terms Function, Definition, Call, Return, Parameter, Argument, Global Scope, Local Scope
+*2.1 Modules*
+incl. understanding terms Script, Module, Library, Standard Library, Import, pip, pypi
+*2.2 Exceptions*
+incl. understanding terms Try Block, Exception
+*2.3 File Manipulation*
+incl. understanding terms With, Open, Write, Append, Read
+*2.4 Dictionaries, Tuples*
+incl. understanding terms Dictionary, Key, Value, Access, Tuple
+*2.5 Useful Built-in Functions*
+incl. understanding term ASCII
+*2.6 Classes*
+incl. understanding terms Object-Oriented Programming, Class, Definition, Instantiation, Method, Dunder, Init, Inheritance, Attribute
+*3.0 List Comprehensions*
+incl. understanding term List Comprehension
+*3.1 Script Conventions*
+incl. understanding term Shebang
+
+*4. Writing a simple script together*
+
+*5. Learning the domains of Programming*
+
+*6. Learning how to Learn*
+
+*7. Intro to Github*

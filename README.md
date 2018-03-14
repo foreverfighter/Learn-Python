@@ -353,7 +353,7 @@ my_fer.drive()
 my_fer.repair()
 ```
 **Terms to Learn**
-Class, Definition, Instantiation, Method, Dunder, Init, Inheritance, Attribute
+Object-Oriented Programming, Class, Definition, Instantiation, Method, Dunder, Init, Inheritance, Attribute
 
 #### 3.0 List Comprehensions
 ```python
