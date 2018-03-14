@@ -10,6 +10,7 @@ _For indented lines, use a tab for each indent._
 
 #### 1.0 Basic Data Types
 ```python
+print('Hello World')
 print('Henry's shoelace')
 print('Henry\'s shoelace')
 print('Henry\'s\nshoelace')
