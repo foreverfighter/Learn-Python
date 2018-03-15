@@ -34,7 +34,7 @@ str(5) + ' Fingers'
 3 / 2
 5 ** 2
 11 // 2
-11 % 2
+25 % 3
 
 int('5') + 5
 float('2') + 2
@@ -53,8 +53,6 @@ del x
 x
 
 x = 5
-x++
-x
 x += 1
 x
 x -= 1
@@ -83,10 +81,9 @@ ls[2]
 ls[-1]
 
 ls[2:]
-ls[1:-1]
-ls[2:5]
 ls[:5]
-ls[2:]
+ls[2:5]
+ls[1:-1]
 ls[::-1]
 
 4 in ls
@@ -126,12 +123,12 @@ x > 10 or x > 16
 not x > 10
 
 x = 15
-if (x == 15):
+if x == 15:
   print('x is 15')
-  elif (x > 15):
-    print('x is greater than 15')
-  else:
-    print('x is less than 15')
+elif x > 15:
+  print('x is greater than 15')
+else:
+  print('x is less than 15')
 
 x = 15
 not x
@@ -149,8 +146,8 @@ not not x
 
 if x:
   print('x is Truthy!')
-  else:
-    print('x is Falsy!')
+else:
+  print('x is Falsy!')
 ```
 **Terms to Learn**
 Boolean, Truthiness, If Statement, Expression
@@ -163,19 +160,19 @@ for i in range(5):
 i = 0
 while i < 7:
   print(i)
-  i++
+  i+=1
 
 i = 0
 while i < 7:
   print(i)
-  i++
-  if (i == 5):
+  i+=1
+  if i == 5:
     break
 
 i = 0
 while i < 7:
-  i++
-  if (i == 5):
+  i+=1
+  if i == 5:
     continue
   print(i)
 
@@ -217,7 +214,6 @@ def change_x(arg):
 change_x(10)
 x
 y
-dir()
 ```
 **Terms to Learn**
 Function, Definition, Call, Return, Parameter, Argument, Global Scope, Local Scope
