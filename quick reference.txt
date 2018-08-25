@@ -14,6 +14,7 @@ True/False => boolean
 variable = name
 data = information
 integer/float = number
+element = item
 function ~ worker
 define ~ teach
 argument/parameter = input
