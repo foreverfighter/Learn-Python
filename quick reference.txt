@@ -1,0 +1,22 @@
+NOTEBOOK SHORTCUTS
+shift+enter - run cell + new
+ctrl+enter - run cell
+Esc, x - delete cell
+up, down - select cell
+ctrl+/ - (un)comment
+----------------------------
+'' => string
+[] => list
+{} => dictionary
+() => function
+True/False => boolean
+
+variable = name
+data = information
+integer/float = number
+function ~ worker
+define ~ teach
+argument/parameter = input
+return ~ what to report back
+attributes = features
+index = address
