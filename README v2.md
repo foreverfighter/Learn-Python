@@ -1,5 +1,6 @@
 # Learn-Python
 _Follow these exercises in a jupyter notebook._
+or on Mu! https://codewith.mu/en/download
 
 # 1.0 Basic Data Types
 ```python

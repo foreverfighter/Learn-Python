@@ -2,6 +2,8 @@
 _Learn/practise Python hands-on by following these exercises in the interpreter._
 
 Get Python and the interpreter [**here**](https://www.python.org/downloads/).
+or Mu!
+https://codewith.mu/en/download
 
 ### Instructions for use
 _Open the interpreter, type a line of code, press enter and observe the output._
